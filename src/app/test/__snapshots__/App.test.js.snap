@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders without crashing should render children correctly 1`] = `
+<div
+  className="wrapper"
+>
+  <header>
+    <img
+      alt="logo"
+      className="logoStyle"
+      src="/images/beer_logo.png"
+    />
+    <h1>
+      The Brewery
+    </h1>
+  </header>
+  <div
+    className="pageLayout"
+  >
+    <div
+      className="loader"
+    />
+    <div
+      className="row beerlistSection"
+    >
+      <div
+        className="msgStyle"
+      >
+        <p>
+          No Container Found
+        </p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <small>
+      © 2018 The Brewery
+    </small>
+  </footer>
+</div>
+`;

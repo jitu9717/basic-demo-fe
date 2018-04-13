@@ -1,0 +1,136 @@
+/*----Common----*/
+*{
+  font-family: Proxima Nova, Arial, Helvetica, sans-serif;
+}
+body{ background-color: #f1f1f2;}
+.msgStyle{
+  text-align: center; width:100%; margin-top: 10px; font-weight: bold; margin-top: 20%;
+}
+.pageLayout{
+  margin:0 30px;
+}
+.wrapper{
+  min-height:100%;
+  position:relative;
+  margin-bottom: 45px;
+}
+
+/*----Header----*/
+header{
+  background-color: #34302c;
+  color:#ffffff;
+  border-bottom: 2px solid #000000;
+  box-shadow: 0 -2px 4px 2px #000000;
+  -moz-box-shadow: 0 -2px 4px 2px #000000;
+  -webkit-box-shadow: 0 -2px 4px 2px #000000;
+}
+header h1{
+  font-size: 35px;
+  font-weight: bold;
+  padding-top: 8px;
+}
+.logoStyle{
+  width: 41px;
+  height: auto;
+  float: left;
+  margin-top: 6px;
+  margin-left: 20px;
+  margin-right: 6px;
+}
+
+/*----Content Part----*/
+.beerlistSection{
+  padding-top: 20px;
+}
+.commonBoxModel{
+  padding: 15px 15px;
+}
+.beerContainer{
+  background-color: #e1e1e1;
+  border-radius:8px;
+  text-align: right;
+  padding-top:25px;
+  padding-right: 25px;
+  width:100%;
+  height:255px;
+  color:#fff;
+  background-image: url("/images/container.png");
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+  -webkit-box-shadow: -1px 1px 8px 2px #cccccc;
+  -moz-box-shadow: -1px 1px 8px 2px #cccccc;
+  box-shadow: -1px 1px 8px 2px #cccccc;
+  position: relative;
+}
+.beertype{
+  font: bold 28px/36px Proxima Nova, Arial, Helvetica, sans-serif;
+}
+
+
+/*----Footer----*/
+footer{
+  background-color: #34302c;
+  color:#ffffff;
+  padding:5px;
+  text-align: center;
+  margin-top:15px;
+  border-top:2px solid #aaaaaa;
+  position:fixed;
+  bottom:0;
+  width:100%;
+  z-index: 9;
+}
+
+/*----Customize Responsive CSS----*/
+@media only screen and (max-width: 1024px){
+  .beerContainer{
+    height:290px;
+  }
+  .beertype {
+    line-height: 55px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .beerContainer{
+    height: 265px;
+  }
+}
+@media only screen and (max-width: 530px) {
+  header {
+    height:100px;
+    text-align: center;
+  }
+  h1{
+    display: inline-block;
+  }
+  .logoStyle{
+    display: inline-block;
+    margin-top: -23px;
+    margin-left: 0;
+    float:none;
+  }
+}
+@media only screen and (min-width: 450px) and (max-width: 575px){
+  .beerContainer{
+    width:80%;
+    margin:0 auto;
+  }
+}
+
+
+.clicker {
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.clicker-display {
+  height: 200px;
+}
+
+.clicker-button-panel {
+  height: 100px;
+}
